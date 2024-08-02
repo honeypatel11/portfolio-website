@@ -1,0 +1,28 @@
+.accordion-wrapper{
+    background-color: #f5f5f7;
+}
+.content-container {
+    display: grid;
+    grid-template-columns: calc(var(--accordion-width) + var(--accordion-side-padding)* 2) 1fr;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    min-height: 784px;
+}
+.accordion-wrapper {
+    border-radius: var(--global-card-corner-radius);
+    --accordion-side-padding: 90px;
+    --accordion-width: 350px;
+    --accordion-content-width: 323px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: var(--accordion-height, auto);
+    padding: 120px var(--accordion-side-padding);
+}

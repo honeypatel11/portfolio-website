@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="header-section">
+        <div class="header">
+            <div class="container">
+                <div class="header-bottom">
+                    <div class="header-bottom-area flex justify-between align-item-center">
+                        <div class="logo">
+                            <img src="./assets/images/logo (2).png" alt="logo">
+                        </div>
+                        <ul class="menu flex">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="games.html">Games
+                                    <span class="badge badge--sm badge--base text-dark">NEW</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="faq.html">Faq</a>
+                            </li>
+                            <li class="has-sub-menu">
+                                <a href="">Pages
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="dashboard.html">dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="game-details.html">Game Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="policy.html">Privacy policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="terms-conditions.html">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="sign-in.html">Sign In</a>
+                                    </li>
+                                    <li>
+                                        <a href="sign-up.html">Sign Up</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-sub-menu">
+                                <a href="#0">Blog
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="blog.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-details.html">Blog Details</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                            <button class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasExample" >
+
+                                
+                            </button>
+
+                          
+                            
+                          </ul>
+
+
+
+                          
+                        <!-- <div class="header-trigger-wrapper d-flex d-lg-none align-items-center">
+                            <div class="header-trigger me-4">
+                                <span></span>
+                            </div>
+                            <a href="sign-in.html" class="cmn--btn active btn--md d-none d-sm-block">Sign In</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+          </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("close-btn").on("click", function(){
+                $("close-btn i").toggleClass("ri-menu-line ri-close-circle-fill")
+            })
+        })
+    </script>
+
+</body>
+
+</html>

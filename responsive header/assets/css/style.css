@@ -1,0 +1,39 @@
+.theme-main {
+    padding: 20px;
+    background-color: aqua;
+}
+
+.block {
+    display: block;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3294;
+    padding: 15px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+
+}

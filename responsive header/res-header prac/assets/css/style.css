@@ -1,0 +1,76 @@
+.container-fluid {
+    background-color: #3b0d2a;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-outline-success {
+    border: none;
+    color: aliceblue;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#offcanvasExample {
+    background-color: cadetblue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-item a {
+   color: black;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.dropdown-menu li a {
+    background-color: #3b0d2a;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+
+    box-shadow: 0 3px 12px 3px rgba(255, 82, 1, 0.1);
+    background: #350b2d;
+    border: 2px solid rgba(255, 200, 39, 0.4);
+    padding: 10px;
+}
+.dropdown-menu li a:hover{
+    background-color: #ffc827;
+    color: black;
+}
+#navbarSupportedContent{
+    font-size: 15px;
+}
+
+
+.navbar-toggler{
+    color: black;
+    background-color: #ffc827;
+}
+.nav-item{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+
+ 
